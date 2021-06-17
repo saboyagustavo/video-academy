@@ -7,6 +7,7 @@ export function useFetchPlaylist(playlistId) {
     params: {
       playlistId,
       part: 'snippet',
+      maxResults: 6
     }
   };
 

@@ -8,7 +8,7 @@ export function Playlist() {
     <>
       {error && <span className="errorMessage"> Something went wrong. Please, try again.</span>}
       {isLoading
-        ? <span span className="warningMessage"> Loading, please wait...</span>
+        ? <span className="warningMessage"> Loading, please wait...</span>
         : <DispList data={data} />}
     </>
   );
