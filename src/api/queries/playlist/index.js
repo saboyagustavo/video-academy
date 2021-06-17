@@ -10,11 +10,7 @@ export function useFetchPlaylist(playlistId) {
     }
   };
 
-  const { data, isSuccess, isLoading, error, isFetched } = useQuery('fetchPlaylist', () => fetchPlaylist(config));
-  if (error) {
-    return error.message;
-  }
-  if (isSuccess && isFetched) {
-    return data;
-  }
+  const { data, isSuccess, isLoading, error } = useQuery('fetchPlaylist', () => fetchPlaylist(config));
+  return { data, isSuccess, isLoading, error };
 }
+
