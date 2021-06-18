@@ -1,3 +1,8 @@
 body {
   background-color: whitesmoke;
 }
+
+.btn {
+  margin: 0 1rem;
+  max-width: 20rem;
+}
