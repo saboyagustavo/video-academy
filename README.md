@@ -25,16 +25,14 @@
 
 This project was build using the following technologies:
 
--   ReactJS
--   React-query
--   YoutubeAPI
+- ReactJS
+- React-query
+- YoutubeAPI
 
 ## 💻 Design
 
 The video-academy is an app to exihibit videos related to a specific youtube channel.
 
-## :heavy_check_mark: finished_at: 
+## :heavy_check_mark: finished_at: Fri Jun 18 2021 00:19:21 GMT-0300
 
-This app was rebuild by [Gustavo Saboya](https://github.com/saboyagustavo) as a learning experience. 
-
-Made with ♥ by Gustavo Saboya.
+This app was rebuild by [Gustavo Saboya](https://github.com/saboyagustavo) as a learning experience.

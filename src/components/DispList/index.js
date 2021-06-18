@@ -3,9 +3,7 @@ import React from 'react';
 export function DispList({ data }) {
   return (
     <>
-
       <div className="container">
-
         <div className="row">
           {data.items.map((item, index) => (
             <div key={index}>
